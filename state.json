@@ -1,0 +1,97 @@
+{
+  "heartbeat": "2026-W47",
+  "reg_notified": [
+    "7103149",
+    "7103188",
+    "7103189",
+    "8437859",
+    "8437862",
+    "8437883",
+    "8437887",
+    "8437893",
+    "8437909",
+    "8598882",
+    "8598883",
+    "8598885",
+    "8598886",
+    "8598887",
+    "8598893",
+    "8598894",
+    "8598895",
+    "8598896"
+  ],
+  "seen": {
+    "7103149": {
+      "start": "2026-11-22T15:00:00",
+      "title": "ONE PIECE CARD GAME OP-18 Release Event"
+    },
+    "7103188": {
+      "start": "2026-11-21T15:00:00",
+      "title": "[FR] ONE PIECE CARD GAME OP-18 Evénement de sortie"
+    },
+    "7103189": {
+      "start": "2026-11-20T15:00:00",
+      "title": "[FR] ONE PIECE CARD GAME OP-18 Evénement de sortie"
+    },
+    "8437859": {
+      "start": "2026-11-27T18:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8437862": {
+      "start": "2026-11-28T14:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8437883": {
+      "start": "2026-12-25T14:00:00",
+      "title": "[Official Shop] ONE PIECE CARD GAME Sealed Battle"
+    },
+    "8437887": {
+      "start": "2026-12-13T14:00:00",
+      "title": "[Official Shop] ONE PIECE Store Buddy Battle"
+    },
+    "8437893": {
+      "start": "2026-12-06T14:00:00",
+      "title": "[Official Shop] ONE PIECE CARD GAME 2on2 Battle"
+    },
+    "8437909": {
+      "start": "2026-11-29T14:00:00",
+      "title": "[Official Shop] Kid's Cup"
+    },
+    "8598882": {
+      "start": "2026-11-18T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Themed Battle"
+    },
+    "8598883": {
+      "start": "2026-11-25T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Themed Battle"
+    },
+    "8598885": {
+      "start": "2026-11-16T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Themed Battle"
+    },
+    "8598886": {
+      "start": "2026-11-23T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Themed Battle"
+    },
+    "8598887": {
+      "start": "2026-11-30T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Themed Battle"
+    },
+    "8598893": {
+      "start": "2026-12-02T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Limited Deck Battle Format"
+    },
+    "8598894": {
+      "start": "2026-12-09T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Limited Deck Battle Format"
+    },
+    "8598895": {
+      "start": "2026-12-16T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Limited Deck Battle Format"
+    },
+    "8598896": {
+      "start": "2026-12-30T18:00:00",
+      "title": "Pirates Party 2026 Vol.4 Limited Deck Battle Format"
+    }
+  }
+}
