@@ -1,0 +1,42 @@
+name: Surveillance tournois OP Halles
+
+on:
+  schedule:
+    - cron: "*/15 * * * *"   # toutes les 15 minutes (GitHub peut décaler de quelques minutes)
+  workflow_dispatch:          # bouton "Run workflow" pour tester à la main
+
+permissions:
+  contents: write             # pour enregistrer state.json
+
+concurrency:
+  group: op-halles-watch
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Installer les dépendances
+        run: pip install -r requirements.txt
+
+      - name: Vérifier les tournois
+        env:
+          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
+        run: python watcher.py
+
+      - name: Enregistrer l'état
+        run: |
+          if [ -n "$(git status --porcelain state.json)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state.json
+            git commit -m "Mise à jour de l'état"
+            git push
+          fi
