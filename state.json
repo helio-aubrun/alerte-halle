@@ -18,7 +18,13 @@
     "8598893",
     "8598894",
     "8598895",
-    "8598896"
+    "8598896",
+    "8875577",
+    "8875578",
+    "8875579",
+    "8875580",
+    "8875581",
+    "8875582"
   ],
   "seen": {
     "7103149": {
@@ -92,6 +98,30 @@
     "8598896": {
       "start": "2026-12-30T18:00:00",
       "title": "Pirates Party 2026 Vol.4 Limited Deck Battle Format"
+    },
+    "8875577": {
+      "start": "2026-12-04T18:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8875578": {
+      "start": "2026-12-11T18:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8875579": {
+      "start": "2026-12-05T14:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8875580": {
+      "start": "2026-12-12T14:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8875581": {
+      "start": "2026-12-19T14:00:00",
+      "title": "OP Store Tournament Event"
+    },
+    "8875582": {
+      "start": "2026-12-26T14:00:00",
+      "title": "OP Store Tournament Event"
     }
   }
 }
