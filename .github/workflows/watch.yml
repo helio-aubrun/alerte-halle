@@ -2,7 +2,7 @@ name: Surveillance tournois OP Halles
 
 on:
   schedule:
-    - cron: "*/15 * * * *"   # toutes les 15 minutes (GitHub peut décaler de quelques minutes)
+    - cron: "*/1 * * * *"   # toutes les minutes (GitHub peut décaler de quelques minutes)
   workflow_dispatch:          # bouton "Run workflow" pour tester à la main
 
 permissions:
