@@ -1,6 +1,6 @@
 # 🏴‍☠️ Alertes tournois – One Piece Official Shop Paris (Les Halles)
 
-Ce petit robot vérifie Bandai TCG+ toutes les 15 minutes et t'envoie un message Discord :
+Ce petit robot vérifie Bandai TCG+ toutes les minutes et t'envoie un message Discord :
 
 - **🏴‍☠️ Nouveau tournoi publié** dès qu'un tournoi apparaît pour la boutique officielle du Forum des Halles (tournois en anglais **et** en français) ;
 - **🔔 Inscriptions ouvertes** quand les inscriptions d'un tournoi déjà annoncé ouvrent.
